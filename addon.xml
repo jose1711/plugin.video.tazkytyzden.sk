@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.tazkytyzden.sk" name="tazkytyzden.sk" provider-name="jose1711" version="0.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.55" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tazkytyzden.sj</summary>
+    <summary lang="cs">tazkytyzden.sj</summary>
+    <summary lang="sk">tazkytyzden.sj</summary>
+    <description lang="en">Watch content from tazkytyzden.sk</description>
+    <description lang="cs">Sleduj videa z tazkytyzden.sk</description>
+    <description lang="sk">Videá z tazkytyzden.sk</description>
+    <platform>all</platform>
+  </extension>
+</addon>
